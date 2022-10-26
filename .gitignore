@@ -1,3 +1,4 @@
 data*/
 **/*.fif
 .ipynb_checkpoints
+wavelet_coh_npy/
