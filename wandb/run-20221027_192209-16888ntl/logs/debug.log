@@ -1,0 +1,69 @@
+2022-10-27 19:22:09,071 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Configure stats pid to 64529
+2022-10-27 19:22:09,071 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/.config/wandb/settings
+2022-10-27 19:22:09,071 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/notebooks/gnn_eeg/wandb/settings
+2022-10-27 19:22:09,071 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 19:22:09,071 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:_log_setup():476] Logging user logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_192209-16888ntl/logs/debug.log
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_192209-16888ntl/logs/debug-internal.log
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f904b00a880>
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:init():516] calling init triggers
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:init():569] starting backend
+2022-10-27 19:22:09,072 INFO    MainThread:64529 [wandb_init.py:init():573] setting up manager
+2022-10-27 19:22:09,076 INFO    MainThread:64529 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-27 19:22:09,080 INFO    MainThread:64529 [wandb_init.py:init():580] backend started and connected
+2022-10-27 19:22:09,096 INFO    MainThread:64529 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-27 19:22:09,096 INFO    MainThread:64529 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-27 19:22:09,096 INFO    MainThread:64529 [wandb_init.py:init():658] updated telemetry
+2022-10-27 19:22:09,118 INFO    MainThread:64529 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-27 19:22:09,586 INFO    MainThread:64529 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-27 19:22:09,784 INFO    MainThread:64529 [wandb_run.py:_on_init():2004] got version response 
+2022-10-27 19:22:09,784 INFO    MainThread:64529 [wandb_init.py:init():728] starting run threads in backend
+2022-10-27 19:22:10,413 INFO    MainThread:64529 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-27 19:22:10,413 INFO    MainThread:64529 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-27 19:22:10,413 INFO    MainThread:64529 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-27 19:22:10,413 INFO    MainThread:64529 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-27 19:22:10,414 INFO    MainThread:64529 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-27 19:22:10,418 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:10,418 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:10,429 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:10,432 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:10,432 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:10,437 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:10,449 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:10,449 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:10,689 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:10,690 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:10,691 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:11,070 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:11,070 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:11,071 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:11,735 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:11,737 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:11,737 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:12,185 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:12,187 INFO    MainThread:64529 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 19:22:12,187 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:12,891 INFO    MainThread:64529 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 19:22:13,343 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Configure stats pid to 64529
+2022-10-27 19:22:13,343 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/.config/wandb/settings
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/notebooks/gnn_eeg/wandb/settings
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_init.py:_log_setup():476] Logging user logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_192213-3pm9dlle/logs/debug.log
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_192213-3pm9dlle/logs/debug-internal.log
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_init.py:init():516] calling init triggers
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'weight_decay': 0.001, 'epochs': 1000, 'training_batch_size': 50, 'validation_batch_size': 50, 'loops_config': True, 'weight_config': 'weighted', 'dataset': 'power_and_entropy', 'criterion': CrossEntropyLoss(), 'node_representation_size': 4, 'model': {'num_graph_conv_blocks': 4, 'hidden_channels': 128, 'activation': 'ReLU', 'readout': 'global_mean_pool'}}
+2022-10-27 19:22:13,344 INFO    MainThread:64529 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 16888ntl
+2022-10-27 19:22:13,345 INFO    MainThread:64529 [wandb_run.py:_finish():1746] finishing run dmasny/neuroimaging_gnn_eeg_final_project/16888ntl
+2022-10-27 19:22:13,345 INFO    MainThread:64529 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-27 19:22:13,346 INFO    MainThread:64529 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:22:13,346 INFO    MainThread:64529 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-27 19:22:13,346 INFO    MainThread:64529 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-27 19:22:13,346 INFO    MainThread:64529 [wandb_run.py:_restore():1932] restore
+2022-10-27 19:22:13,346 INFO    MainThread:64529 [wandb_run.py:_restore():1938] restore done
+2022-10-27 19:22:17,172 INFO    MainThread:64529 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-27 19:22:17,173 INFO    MainThread:64529 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-27 19:22:17,177 INFO    MainThread:64529 [wandb_run.py:_footer_sync_info():3333] logging synced files

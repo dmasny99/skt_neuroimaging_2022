@@ -1,0 +1,37 @@
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_setup.py:_flush():68] Configure stats pid to 59898
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/.config/wandb/settings
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/notebooks/gnn_eeg/wandb/settings
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_init.py:_log_setup():476] Logging user logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_181500-euidecm3/logs/debug.log
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_181500-euidecm3/logs/debug-internal.log
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_init.py:init():516] calling init triggers
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-10-27 18:15:00,493 INFO    MainThread:59898 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 4ubt2586
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [wandb_run.py:_finish():1746] finishing run dmasny/neuroimaging_gnn_eeg_final_project/4ubt2586
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [wandb_run.py:_restore():1932] restore
+2022-10-27 18:15:00,495 INFO    MainThread:59898 [wandb_run.py:_restore():1938] restore done
+2022-10-27 18:15:05,286 INFO    MainThread:59898 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-27 18:15:05,287 INFO    MainThread:59898 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-27 18:15:05,293 INFO    MainThread:59898 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-27 18:15:05,299 INFO    MainThread:59898 [wandb_init.py:init():569] starting backend
+2022-10-27 18:15:05,299 INFO    MainThread:59898 [wandb_init.py:init():573] setting up manager
+2022-10-27 18:15:05,302 INFO    MainThread:59898 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-27 18:15:05,305 INFO    MainThread:59898 [wandb_init.py:init():580] backend started and connected
+2022-10-27 18:15:05,318 INFO    MainThread:59898 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-27 18:15:05,318 INFO    MainThread:59898 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-27 18:15:05,318 INFO    MainThread:59898 [wandb_init.py:init():658] updated telemetry
+2022-10-27 18:15:05,377 INFO    MainThread:59898 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-27 18:15:06,778 INFO    MainThread:59898 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-27 18:15:06,976 INFO    MainThread:59898 [wandb_run.py:_on_init():2004] got version response 
+2022-10-27 18:15:06,976 INFO    MainThread:59898 [wandb_init.py:init():728] starting run threads in backend
+2022-10-27 18:15:07,554 INFO    MainThread:59898 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-27 18:15:07,555 INFO    MainThread:59898 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-27 18:15:07,555 INFO    MainThread:59898 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-27 18:15:07,555 INFO    MainThread:59898 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-27 18:15:07,556 INFO    MainThread:59898 [wandb_init.py:init():765] run started, returning control to user process
