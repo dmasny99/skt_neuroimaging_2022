@@ -25,3 +25,13 @@ config: {'learning_rate': 0.001, 'weight_decay': 0.001, 'epochs': 1000, 'trainin
 2022-10-27 20:35:49,428 INFO    MainThread:66907 [wandb_run.py:_redirect():1903] Wrapping output streams.
 2022-10-27 20:35:49,428 INFO    MainThread:66907 [wandb_run.py:_redirect():1925] Redirects installed.
 2022-10-27 20:35:49,429 INFO    MainThread:66907 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-27 20:51:09,312 INFO    MainThread:66907 [wandb_run.py:_finish():1746] finishing run dmasny/neuroimaging_gnn_eeg_final_project/2vl54knt
+2022-10-27 20:51:09,313 INFO    MainThread:66907 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-27 20:51:09,313 INFO    MainThread:66907 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 20:51:09,313 INFO    MainThread:66907 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-27 20:51:09,313 INFO    MainThread:66907 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-27 20:51:09,313 INFO    MainThread:66907 [wandb_run.py:_restore():1932] restore
+2022-10-27 20:51:09,313 INFO    MainThread:66907 [wandb_run.py:_restore():1938] restore done
+2022-10-27 20:51:14,128 INFO    MainThread:66907 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-27 20:51:14,129 INFO    MainThread:66907 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-27 20:51:14,135 INFO    MainThread:66907 [wandb_run.py:_footer_sync_info():3333] logging synced files

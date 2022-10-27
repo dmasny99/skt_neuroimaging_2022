@@ -1,0 +1,148 @@
+2022-10-27 20:54:36,723 INFO    StreamThr :66942 [internal.py:wandb_internal():88] W&B internal server running at pid: 66942, started at: 2022-10-27 20:54:36.721627
+2022-10-27 20:54:36,726 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: status
+2022-10-27 20:54:36,727 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: status
+2022-10-27 20:54:36,729 DEBUG   SenderThread:66942 [sender.py:send():303] send: header
+2022-10-27 20:54:36,729 INFO    WriterThread:66942 [datastore.py:open_for_write():75] open: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/run-2flgzg73.wandb
+2022-10-27 20:54:36,730 DEBUG   SenderThread:66942 [sender.py:send():303] send: run
+2022-10-27 20:54:37,186 INFO    SenderThread:66942 [dir_watcher.py:__init__():216] watching files in: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files
+2022-10-27 20:54:37,186 INFO    SenderThread:66942 [sender.py:_start_run_threads():928] run started: 2flgzg73 with start time 1666904075.735674
+2022-10-27 20:54:37,187 DEBUG   SenderThread:66942 [sender.py:send():303] send: summary
+2022-10-27 20:54:37,188 INFO    SenderThread:66942 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-27 20:54:37,193 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: check_version
+2022-10-27 20:54:37,194 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: check_version
+2022-10-27 20:54:37,399 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: run_start
+2022-10-27 20:54:37,401 DEBUG   HandlerThread:66942 [meta.py:__init__():34] meta init
+2022-10-27 20:54:37,401 DEBUG   HandlerThread:66942 [meta.py:__init__():49] meta init done
+2022-10-27 20:54:37,402 DEBUG   HandlerThread:66942 [meta.py:probe():215] probe
+2022-10-27 20:54:37,403 DEBUG   HandlerThread:66942 [meta.py:_setup_git():205] setup git
+2022-10-27 20:54:37,422 DEBUG   HandlerThread:66942 [meta.py:_setup_git():212] setup git done
+2022-10-27 20:54:37,422 DEBUG   HandlerThread:66942 [meta.py:_save_pip():53] save pip
+2022-10-27 20:54:37,423 DEBUG   HandlerThread:66942 [meta.py:_save_pip():67] save pip done
+2022-10-27 20:54:37,423 DEBUG   HandlerThread:66942 [meta.py:_save_conda():74] save conda
+2022-10-27 20:54:37,954 DEBUG   HandlerThread:66942 [meta.py:_save_conda():84] save conda done
+2022-10-27 20:54:37,955 DEBUG   HandlerThread:66942 [meta.py:probe():253] probe done
+2022-10-27 20:54:37,957 DEBUG   SenderThread:66942 [sender.py:send():303] send: files
+2022-10-27 20:54:37,958 INFO    SenderThread:66942 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-27 20:54:37,969 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-27 20:54:37,969 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: stop_status
+2022-10-27 20:54:38,179 DEBUG   SenderThread:66942 [sender.py:send():303] send: telemetry
+2022-10-27 20:54:38,188 INFO    Thread-114:66942 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/wandb-metadata.json
+2022-10-27 20:54:38,188 INFO    Thread-114:66942 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/wandb-summary.json
+2022-10-27 20:54:38,188 INFO    Thread-114:66942 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/requirements.txt
+2022-10-27 20:54:38,188 INFO    Thread-114:66942 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/conda-environment.yaml
+2022-10-27 20:54:38,345 DEBUG   SenderThread:66942 [sender.py:send():303] send: exit
+2022-10-27 20:54:38,346 INFO    SenderThread:66942 [sender.py:send_exit():442] handling exit code: 0
+2022-10-27 20:54:38,346 INFO    SenderThread:66942 [sender.py:send_exit():444] handling runtime: 0
+2022-10-27 20:54:38,346 INFO    SenderThread:66942 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-27 20:54:38,346 INFO    SenderThread:66942 [sender.py:send_exit():450] send defer
+2022-10-27 20:54:38,347 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,347 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-27 20:54:38,347 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,348 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-27 20:54:38,348 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 1
+2022-10-27 20:54:38,348 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,348 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-27 20:54:38,448 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,449 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-27 20:54:38,449 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 2
+2022-10-27 20:54:38,449 DEBUG   SenderThread:66942 [sender.py:send():303] send: stats
+2022-10-27 20:54:38,450 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,451 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-27 20:54:38,451 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,452 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-27 20:54:38,452 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 3
+2022-10-27 20:54:38,452 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,453 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-27 20:54:38,453 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,453 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-27 20:54:38,454 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 4
+2022-10-27 20:54:38,454 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,454 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-27 20:54:38,455 DEBUG   SenderThread:66942 [sender.py:send():303] send: summary
+2022-10-27 20:54:38,455 INFO    SenderThread:66942 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-27 20:54:38,456 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,456 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-27 20:54:38,456 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 5
+2022-10-27 20:54:38,457 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,457 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-27 20:54:38,458 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,458 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-27 20:54:38,545 INFO    Thread-118:66942 [upload_job.py:push():143] Uploaded file /tmp/tmpfa_f6kejwandb/1lvyguqn-wandb-metadata.json
+2022-10-27 20:54:38,702 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 6
+2022-10-27 20:54:38,703 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,703 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-27 20:54:38,704 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,704 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-27 20:54:38,704 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 7
+2022-10-27 20:54:38,705 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:38,705 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-27 20:54:38,705 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:38,706 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-27 20:54:38,706 INFO    SenderThread:66942 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-27 20:54:39,187 INFO    Thread-114:66942 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/wandb-summary.json
+2022-10-27 20:54:39,188 INFO    SenderThread:66942 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/config.yaml
+2022-10-27 20:54:39,188 INFO    SenderThread:66942 [dir_watcher.py:finish():392] scan: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files
+2022-10-27 20:54:39,189 INFO    SenderThread:66942 [dir_watcher.py:finish():406] scan save: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/wandb-summary.json wandb-summary.json
+2022-10-27 20:54:39,189 INFO    SenderThread:66942 [dir_watcher.py:finish():406] scan save: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/requirements.txt requirements.txt
+2022-10-27 20:54:39,195 INFO    SenderThread:66942 [dir_watcher.py:finish():406] scan save: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/config.yaml config.yaml
+2022-10-27 20:54:39,201 INFO    SenderThread:66942 [dir_watcher.py:finish():406] scan save: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/wandb-metadata.json wandb-metadata.json
+2022-10-27 20:54:39,206 INFO    SenderThread:66942 [dir_watcher.py:finish():406] scan save: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/conda-environment.yaml conda-environment.yaml
+2022-10-27 20:54:39,206 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 8
+2022-10-27 20:54:39,207 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:39,207 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-27 20:54:39,208 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:39,208 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-27 20:54:39,208 INFO    SenderThread:66942 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-27 20:54:39,346 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-27 20:54:39,347 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: poll_exit
+2022-10-27 20:54:39,760 INFO    Thread-119:66942 [upload_job.py:push():143] Uploaded file /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/wandb-summary.json
+2022-10-27 20:54:39,766 INFO    Thread-121:66942 [upload_job.py:push():143] Uploaded file /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/config.yaml
+2022-10-27 20:54:39,775 INFO    Thread-120:66942 [upload_job.py:push():143] Uploaded file /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/files/requirements.txt
+2022-10-27 20:54:39,976 INFO    Thread-113:66942 [sender.py:transition_state():463] send defer: 9
+2022-10-27 20:54:39,977 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:39,977 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-27 20:54:39,978 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:39,978 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-27 20:54:39,978 INFO    SenderThread:66942 [file_pusher.py:join():173] waiting for file pusher
+2022-10-27 20:54:39,978 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 10
+2022-10-27 20:54:39,979 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:39,979 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-27 20:54:39,980 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:39,980 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-27 20:54:40,347 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-27 20:54:40,400 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 11
+2022-10-27 20:54:40,401 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: poll_exit
+2022-10-27 20:54:40,401 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:40,402 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-27 20:54:40,403 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:40,403 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-27 20:54:40,403 INFO    SenderThread:66942 [sender.py:transition_state():463] send defer: 12
+2022-10-27 20:54:40,404 DEBUG   SenderThread:66942 [sender.py:send():303] send: final
+2022-10-27 20:54:40,405 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: defer
+2022-10-27 20:54:40,405 DEBUG   SenderThread:66942 [sender.py:send():303] send: footer
+2022-10-27 20:54:40,405 INFO    HandlerThread:66942 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-27 20:54:40,406 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: defer
+2022-10-27 20:54:40,406 INFO    SenderThread:66942 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-27 20:54:40,407 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-27 20:54:40,408 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: poll_exit
+2022-10-27 20:54:40,409 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-27 20:54:40,410 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: poll_exit
+2022-10-27 20:54:40,411 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: server_info
+2022-10-27 20:54:40,412 DEBUG   SenderThread:66942 [sender.py:send_request():317] send_request: server_info
+2022-10-27 20:54:40,416 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-27 20:54:40,417 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-27 20:54:40,840 INFO    MainThread:66942 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-27 20:54:40,841 INFO    MainThread:66942 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-27 20:54:40,841 INFO    MainThread:66942 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-27 20:54:40,843 DEBUG   HandlerThread:66942 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-27 20:54:40,843 INFO    HandlerThread:66942 [handler.py:finish():814] shutting down handler
+2022-10-27 20:54:41,404 INFO    WriterThread:66942 [datastore.py:close():279] close: /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_205430-2flgzg73/run-2flgzg73.wandb
+2022-10-27 20:54:41,840 INFO    SenderThread:66942 [sender.py:finish():1331] shutting down sender
+2022-10-27 20:54:41,840 INFO    SenderThread:66942 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-27 20:54:41,841 INFO    SenderThread:66942 [file_pusher.py:join():173] waiting for file pusher
+2022-10-27 20:54:41,846 INFO    MainThread:66942 [internal.py:handle_exit():78] Internal process exited
+2022-10-27 20:54:41,847 INFO    MainThread:66942 [internal.py:handle_exit():78] Internal process exited
+2022-10-27 20:54:41,847 INFO    MainThread:66942 [internal.py:handle_exit():78] Internal process exited
+2022-10-27 20:54:41,847 INFO    MainThread:66942 [internal.py:handle_exit():78] Internal process exited
+2022-10-27 20:54:41,847 INFO    MainThread:66942 [internal.py:handle_exit():78] Internal process exited
+2022-10-27 20:54:41,847 INFO    MainThread:66942 [internal.py:handle_exit():78] Internal process exited
