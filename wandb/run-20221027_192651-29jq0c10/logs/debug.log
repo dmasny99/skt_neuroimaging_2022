@@ -1,0 +1,37 @@
+2022-10-27 19:26:51,151 INFO    MainThread:64799 [wandb_setup.py:_flush():68] Configure stats pid to 64799
+2022-10-27 19:26:51,151 INFO    MainThread:64799 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/.config/wandb/settings
+2022-10-27 19:26:51,151 INFO    MainThread:64799 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/notebooks/gnn_eeg/wandb/settings
+2022-10-27 19:26:51,151 INFO    MainThread:64799 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 19:26:51,151 INFO    MainThread:64799 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 19:26:51,151 INFO    MainThread:64799 [wandb_init.py:_log_setup():476] Logging user logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_192651-29jq0c10/logs/debug.log
+2022-10-27 19:26:51,152 INFO    MainThread:64799 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_192651-29jq0c10/logs/debug-internal.log
+2022-10-27 19:26:51,152 INFO    MainThread:64799 [wandb_init.py:init():516] calling init triggers
+2022-10-27 19:26:51,152 INFO    MainThread:64799 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'weight_decay': 0.001, 'epochs': 1000, 'training_batch_size': 50, 'validation_batch_size': 50, 'loops_config': True, 'weight_config': 'weighted', 'dataset': 'power_and_entropy', 'criterion': CrossEntropyLoss(), 'node_representation_size': 4, 'model': {'num_graph_conv_blocks': 4, 'hidden_channels': 128, 'activation': 'ReLU', 'readout': 'global_mean_pool'}}
+2022-10-27 19:26:51,152 INFO    MainThread:64799 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 864o7qgp
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [wandb_run.py:_finish():1746] finishing run dmasny/neuroimaging_gnn_eeg_final_project/864o7qgp
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [wandb_run.py:_restore():1932] restore
+2022-10-27 19:26:51,153 INFO    MainThread:64799 [wandb_run.py:_restore():1938] restore done
+2022-10-27 19:26:53,933 INFO    MainThread:64799 [wandb_init.py:init():569] starting backend
+2022-10-27 19:26:53,933 INFO    MainThread:64799 [wandb_init.py:init():573] setting up manager
+2022-10-27 19:26:53,939 INFO    MainThread:64799 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-27 19:26:53,942 INFO    MainThread:64799 [wandb_init.py:init():580] backend started and connected
+2022-10-27 19:26:53,958 INFO    MainThread:64799 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-27 19:26:53,958 INFO    MainThread:64799 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-27 19:26:53,958 INFO    MainThread:64799 [wandb_init.py:init():658] updated telemetry
+2022-10-27 19:26:53,981 INFO    MainThread:64799 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-27 19:26:57,305 WARNING MsgRouterThr:64799 [router.py:message_loop():77] message_loop has been closed
+2022-10-27 19:26:57,305 WARNING MsgRouterThr:64799 [router.py:message_loop():77] message_loop has been closed
+2022-10-27 19:26:59,005 ERROR   MainThread:64799 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/opt/conda/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 697, in init
+    result = handle.wait(
+  File "/opt/conda/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 259, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed
