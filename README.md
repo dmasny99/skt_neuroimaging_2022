@@ -1,2 +1,2 @@
 Link to the presentation: [link to Google Slides](https://docs.google.com/presentation/d/1sjL0fYwiSJC-JIgmclYdllXgTMw8z_sdMzoHpNpLVys/edit?usp=sharing)  
-Link to the Wandb panel: link  
+Link to the Wandb panel: [link1 to Wandb panel](https://wandb.ai/dmasny/neuroimaging_gnn_eeg_final_project?workspace=user-dmasny), [link2 to Wandb panel](https://wandb.ai/volodimirich/neuroimaging_gnn_eeg_final_project?workspace=user-volodimirich)

@@ -1,0 +1,237 @@
+Processing...
+Done!
+processed/
+├── gnn_dataset_test_self_loops=False_weighted=unweighted_dynamic_threshold_data=only_entropy.pt
+├── gnn_dataset_test_self_loops=False_weighted=unweighted_dynamic_threshold_data=only_powerbands.pt
+├── gnn_dataset_test_self_loops=False_weighted=unweighted_dynamic_threshold_data=power_and_entropy.pt
+├── gnn_dataset_test_self_loops=False_weighted=unweighted_static_threshold_data=only_entropy.pt
+├── gnn_dataset_test_self_loops=False_weighted=unweighted_static_threshold_data=only_powerbands.pt
+├── gnn_dataset_test_self_loops=False_weighted=unweighted_static_threshold_data=power_and_entropy.pt
+├── gnn_dataset_test_self_loops=False_weighted=weighted_data=only_entropy.pt
+├── gnn_dataset_test_self_loops=False_weighted=weighted_data=only_powerbands.pt
+├── gnn_dataset_test_self_loops=False_weighted=weighted_data=power_and_entropy.pt
+├── gnn_dataset_test_self_loops=True_weighted=unweighted_dynamic_threshold_data=only_entropy.pt
+├── gnn_dataset_test_self_loops=True_weighted=unweighted_dynamic_threshold_data=only_powerbands.pt
+├── gnn_dataset_test_self_loops=True_weighted=unweighted_dynamic_threshold_data=power_and_entropy.pt
+├── gnn_dataset_test_self_loops=True_weighted=unweighted_static_threshold_data=only_entropy.pt
+├── gnn_dataset_test_self_loops=True_weighted=unweighted_static_threshold_data=only_powerbands.pt
+├── gnn_dataset_test_self_loops=True_weighted=unweighted_static_threshold_data=power_and_entropy.pt
+├── gnn_dataset_test_self_loops=True_weighted=weighted_data=only_entropy.pt
+├── gnn_dataset_test_self_loops=True_weighted=weighted_data=only_powerbands.pt
+├── gnn_dataset_test_self_loops=True_weighted=weighted_data=power_and_entropy.pt
+├── gnn_dataset_test_val_entropy_data.pt
+├── gnn_dataset_train_self_loops=False_weighted=unweighted_dynamic_threshold_data=only_entropy.pt
+├── gnn_dataset_train_self_loops=False_weighted=unweighted_dynamic_threshold_data=only_powerbands.pt
+├── gnn_dataset_train_self_loops=False_weighted=unweighted_dynamic_threshold_data=power_and_entropy.pt
+├── gnn_dataset_train_self_loops=False_weighted=unweighted_static_threshold_data=only_entropy.pt
+├── gnn_dataset_train_self_loops=False_weighted=unweighted_static_threshold_data=only_powerbands.pt
+├── gnn_dataset_train_self_loops=False_weighted=unweighted_static_threshold_data=power_and_entropy.pt
+├── gnn_dataset_train_self_loops=False_weighted=weighted_data=only_entropy.pt
+├── gnn_dataset_train_self_loops=False_weighted=weighted_data=only_powerbands.pt
+├── gnn_dataset_train_self_loops=False_weighted=weighted_data=power_and_entropy.pt
+├── gnn_dataset_train_self_loops=True_weighted=unweighted_dynamic_threshold_data=only_entropy.pt
+├── gnn_dataset_train_self_loops=True_weighted=unweighted_dynamic_threshold_data=only_powerbands.pt
+├── gnn_dataset_train_self_loops=True_weighted=unweighted_dynamic_threshold_data=power_and_entropy.pt
+├── gnn_dataset_train_self_loops=True_weighted=unweighted_static_threshold_data=only_entropy.pt
+├── gnn_dataset_train_self_loops=True_weighted=unweighted_static_threshold_data=only_powerbands.pt
+├── gnn_dataset_train_self_loops=True_weighted=unweighted_static_threshold_data=power_and_entropy.pt
+├── gnn_dataset_train_self_loops=True_weighted=weighted_data=only_entropy.pt
+├── gnn_dataset_train_self_loops=True_weighted=weighted_data=only_powerbands.pt
+├── gnn_dataset_train_self_loops=True_weighted=weighted_data=power_and_entropy.pt
+├── pre_filter.pt
+└── pre_transform.pt
+0 directories, 39 files
+Processing...
+Done!
+Processing...
+Done!
+data/kz_clean/health/
+├── clean_F116.fif
+├── clean_F117.fif
+├── clean_F120.fif
+├── clean_F121.fif
+├── clean_F122.fif
+├── clean_F123.fif
+├── clean_F124.fif
+├── clean_F125.fif
+├── clean_F126.fif
+├── clean_F127.fif
+├── clean_F128.fif
+├── clean_F129.fif
+├── clean_F130.fif
+├── clean_F131.fif
+├── clean_F132.fif
+├── clean_F133.fif
+├── clean_F134.fif
+├── clean_F135.fif
+├── clean_F136.fif
+├── clean_F137.fif
+├── clean_F138.fif
+├── clean_F139.fif
+├── clean_F140.fif
+├── clean_M118.fif
+├── clean_M152.fif
+├── clean_M153.fif
+├── clean_M154.fif
+├── clean_M157.fif
+├── clean_M163.fif
+└── clean_M165.fif
+0 directories, 30 files
+F137
+F124
+F117
+F127
+F131
+F126
+F133
+F140
+F122
+F129
+F135
+F120
+F132
+F130
+M153
+M118
+F116
+M163
+M157
+F136
+M154
+F121
+F123
+F139
+M165
+F125
+M152
+F128
+F138
+F134
+F137
+F124
+F117
+F127
+F131
+F126
+F133
+F140
+F122
+F129
+F135
+F120
+F132
+F130
+M153
+M118
+F116
+M163
+M157
+F136
+M154
+F121
+F123
+F139
+M165
+F125
+M152
+F128
+F138
+F134
+clean_F137.fif
+clean_F124.fif
+clean_F117.fif
+clean_F127.fif
+clean_F131.fif
+clean_F126.fif
+clean_F133.fif
+clean_F140.fif
+clean_F122.fif
+clean_F129.fif
+clean_F135.fif
+clean_F120.fif
+clean_F132.fif
+clean_F130.fif
+clean_M153.fif
+clean_M118.fif
+clean_F116.fif
+clean_M163.fif
+clean_M157.fif
+clean_F136.fif
+clean_M154.fif
+clean_F121.fif
+clean_F123.fif
+clean_F139.fif
+clean_M165.fif
+clean_F125.fif
+clean_M152.fif
+clean_F128.fif
+clean_F138.fif
+clean_F134.fif
+clean_M505.fif
+clean_F324.fif
+clean_M512.fif
+clean_F301.fif
+clean_F308.fif
+clean_F340.fif
+clean_F504.fif
+clean_M511.fif
+clean_F341.fif
+clean_F351.fif
+clean_F155.fif
+clean_F305.fif
+clean_F344.fif
+clean_F311.fif
+clean_F510.fif
+clean_F347.fif
+clean_M336.fif
+clean_F316.fif
+clean_M310.fif
+clean_F342.fif
+clean_F304.fif
+clean_M503.fif
+clean_F345.fif
+clean_M353.fif
+clean_F501.fif
+clean_F352.fif
+clean_F317.fif
+clean_F343.fif
+clean_F502.fif
+clean_F337.fif
+F137
+F124
+F117
+F127
+F131
+F126
+F133
+F140
+F122
+F129
+F135
+F120
+F132
+F130
+M153
+M118
+F116
+M163
+M157
+F136
+M154
+F121
+F123
+F139
+M165
+F125
+M152
+F128
+F138
+F134
+F117
+F131
+F133
+F135
+F130
+F136
+F139
+F128

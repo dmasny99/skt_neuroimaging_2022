@@ -1,0 +1,60 @@
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Configure stats pid to 72960
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/.config/wandb/settings
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/notebooks/gnn_eeg/wandb/settings
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:_log_setup():476] Logging user logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_234952-3ct3emh1/logs/debug.log
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_234952-3ct3emh1/logs/debug-internal.log
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f350bd5e7f0>
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:init():516] calling init triggers
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:init():569] starting backend
+2022-10-27 23:49:52,766 INFO    MainThread:72960 [wandb_init.py:init():573] setting up manager
+2022-10-27 23:49:52,769 INFO    MainThread:72960 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-27 23:49:52,771 INFO    MainThread:72960 [wandb_init.py:init():580] backend started and connected
+2022-10-27 23:49:52,786 INFO    MainThread:72960 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-27 23:49:52,786 INFO    MainThread:72960 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-27 23:49:52,786 INFO    MainThread:72960 [wandb_init.py:init():658] updated telemetry
+2022-10-27 23:49:52,804 INFO    MainThread:72960 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-27 23:49:53,366 INFO    MainThread:72960 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-27 23:49:53,560 INFO    MainThread:72960 [wandb_run.py:_on_init():2004] got version response 
+2022-10-27 23:49:53,560 INFO    MainThread:72960 [wandb_init.py:init():728] starting run threads in backend
+2022-10-27 23:49:54,131 INFO    MainThread:72960 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-27 23:49:54,131 INFO    MainThread:72960 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-27 23:49:54,131 INFO    MainThread:72960 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-27 23:49:54,132 INFO    MainThread:72960 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-27 23:49:54,132 INFO    MainThread:72960 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-27 23:49:54,135 INFO    MainThread:72960 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 23:49:54,135 INFO    MainThread:72960 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 23:49:54,149 INFO    MainThread:72960 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 23:49:54,152 INFO    MainThread:72960 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 23:49:54,152 INFO    MainThread:72960 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 23:49:54,157 INFO    MainThread:72960 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 23:49:54,168 INFO    MainThread:72960 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 23:49:54,169 INFO    MainThread:72960 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 23:49:54,411 INFO    MainThread:72960 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 23:49:54,413 INFO    MainThread:72960 [wandb_init.py:_pause_backend():389] pausing backend
+2022-10-27 23:49:54,413 INFO    MainThread:72960 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 23:49:55,043 INFO    MainThread:72960 [wandb_init.py:_resume_backend():398] resuming backend
+2022-10-27 23:49:58,401 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Configure stats pid to 72960
+2022-10-27 23:49:58,401 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/.config/wandb/settings
+2022-10-27 23:49:58,401 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Loading settings from /home/jovyan/notebooks/gnn_eeg/wandb/settings
+2022-10-27 23:49:58,401 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 23:49:58,402 INFO    MainThread:72960 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 23:49:58,402 INFO    MainThread:72960 [wandb_init.py:_log_setup():476] Logging user logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_234958-3elsg166/logs/debug.log
+2022-10-27 23:49:58,402 INFO    MainThread:72960 [wandb_init.py:_log_setup():477] Logging internal logs to /home/jovyan/notebooks/gnn_eeg/wandb/run-20221027_234958-3elsg166/logs/debug-internal.log
+2022-10-27 23:49:58,402 INFO    MainThread:72960 [wandb_init.py:init():516] calling init triggers
+2022-10-27 23:49:58,402 INFO    MainThread:72960 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'weight_decay': 0.001, 'epochs': 1000, 'training_batch_size': 50, 'validation_batch_size': 50, 'loops_config': True, 'weight_config': 'unweighted_dynamic_threshold', 'dataset': 'power_and_entropy', 'criterion': CrossEntropyLoss(), 'node_representation_size': 8, 'model': {'num_graph_conv_blocks': 4, 'hidden_channels': 128, 'activation': 'ReLU', 'readout': 'global_mean_pool'}}
+2022-10-27 23:49:58,402 INFO    MainThread:72960 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 3ct3emh1
+2022-10-27 23:49:58,404 INFO    MainThread:72960 [wandb_run.py:_finish():1746] finishing run dmasny/neuroimaging_gnn_eeg_final_project/3ct3emh1
+2022-10-27 23:49:58,404 INFO    MainThread:72960 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-27 23:49:58,404 INFO    MainThread:72960 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 23:49:58,405 INFO    MainThread:72960 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-27 23:49:58,405 INFO    MainThread:72960 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-27 23:49:58,405 INFO    MainThread:72960 [wandb_run.py:_restore():1932] restore
+2022-10-27 23:49:58,406 INFO    MainThread:72960 [wandb_run.py:_restore():1938] restore done
+2022-10-27 23:50:01,832 INFO    MainThread:72960 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-27 23:50:01,832 INFO    MainThread:72960 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-27 23:50:01,834 INFO    MainThread:72960 [wandb_run.py:_footer_sync_info():3333] logging synced files
