@@ -1,0 +1,23 @@
+{
+    "os": "Linux-4.15.0-20-generic-x86_64-with-glibc2.31",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-10-28T04:01:13.859663",
+    "startedAt": "2022-10-28T04:01:13.122079",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 3,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "notebooks/gnn_eeg/gnn.ipynb",
+    "root": "/home/jovyan/notebooks/gnn_eeg",
+    "git": {
+        "remote": "https://github.com/dmasny99/skt_neuroimaging_2022.git",
+        "commit": "00b1b85708755a524caa74f8270db16df65c8e3d"
+    },
+    "email": "Dmitrii.Masnyi@skoltech.ru",
+    "host": "f83a82a6e6e0",
+    "username": "jovyan",
+    "executable": "/opt/conda/bin/python"
+}
